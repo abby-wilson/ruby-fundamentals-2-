@@ -1,7 +1,7 @@
 
 
 def greet_backwards(name)
-  name.reverse + name.reverse
+  name.reverse * 2
 end
 
 puts "Hello, #{greet_backwards("Amanda")}! Welcome home."
